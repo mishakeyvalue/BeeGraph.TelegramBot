@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="telegram.bot" Version="13.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BeeGraph\BeeGraph.Core\BeeGraph.Core.csproj" />
     <ProjectReference Include="..\BeeGraph\BeeGraph.Data\BeeGraph.Data.csproj" />
     <ProjectReference Include="..\BeeGraph\BeeGraph.Infrastructure\BeeGraph.Infrastructure.csproj" />
