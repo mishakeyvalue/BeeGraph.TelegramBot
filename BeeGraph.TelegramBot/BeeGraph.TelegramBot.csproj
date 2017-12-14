@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BeeGraph\BeeGraph.Core\BeeGraph.Core.csproj" />
+    <ProjectReference Include="..\BeeGraph\BeeGraph.Data\BeeGraph.Data.csproj" />
+    <ProjectReference Include="..\BeeGraph\BeeGraph.Infrastructure\BeeGraph.Infrastructure.csproj" />
+    <ProjectReference Include="..\BeeGraph\BeeGraph.IoC\BeeGraph.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

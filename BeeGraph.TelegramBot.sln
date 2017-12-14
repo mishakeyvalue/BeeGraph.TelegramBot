@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeGraph.TelegramBot", "BeeGraph.TelegramBot\BeeGraph.TelegramBot.csproj", "{7DCB00BF-D283-47F2-B691-E5D69004617D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeGraph.IoC", "BeeGraph\BeeGraph.IoC\BeeGraph.IoC.csproj", "{89FF8162-F755-4D22-B4DB-075CE08EA96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeGraph.Core", "BeeGraph\BeeGraph.Core\BeeGraph.Core.csproj", "{8208754B-069F-4FD1-AD28-49F6AED5B9E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeGraph.Infrastructure", "BeeGraph\BeeGraph.Infrastructure\BeeGraph.Infrastructure.csproj", "{2CC66F90-A39C-4790-8F6F-EEFB39B8C861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{70E9E364-AF1E-43CD-BBFE-8AC2DDC4983A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeeGraph.Data", "BeeGraph\BeeGraph.Data\BeeGraph.Data.csproj", "{D5731D44-73D8-419B-A8BA-23071AFF2728}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DCB00BF-D283-47F2-B691-E5D69004617D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCB00BF-D283-47F2-B691-E5D69004617D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCB00BF-D283-47F2-B691-E5D69004617D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCB00BF-D283-47F2-B691-E5D69004617D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FF8162-F755-4D22-B4DB-075CE08EA96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FF8162-F755-4D22-B4DB-075CE08EA96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FF8162-F755-4D22-B4DB-075CE08EA96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FF8162-F755-4D22-B4DB-075CE08EA96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8208754B-069F-4FD1-AD28-49F6AED5B9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8208754B-069F-4FD1-AD28-49F6AED5B9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8208754B-069F-4FD1-AD28-49F6AED5B9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8208754B-069F-4FD1-AD28-49F6AED5B9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC66F90-A39C-4790-8F6F-EEFB39B8C861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC66F90-A39C-4790-8F6F-EEFB39B8C861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC66F90-A39C-4790-8F6F-EEFB39B8C861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC66F90-A39C-4790-8F6F-EEFB39B8C861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5731D44-73D8-419B-A8BA-23071AFF2728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5731D44-73D8-419B-A8BA-23071AFF2728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5731D44-73D8-419B-A8BA-23071AFF2728}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5731D44-73D8-419B-A8BA-23071AFF2728}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89FF8162-F755-4D22-B4DB-075CE08EA96B} = {70E9E364-AF1E-43CD-BBFE-8AC2DDC4983A}
+		{8208754B-069F-4FD1-AD28-49F6AED5B9E1} = {70E9E364-AF1E-43CD-BBFE-8AC2DDC4983A}
+		{2CC66F90-A39C-4790-8F6F-EEFB39B8C861} = {70E9E364-AF1E-43CD-BBFE-8AC2DDC4983A}
+		{D5731D44-73D8-419B-A8BA-23071AFF2728} = {70E9E364-AF1E-43CD-BBFE-8AC2DDC4983A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A012CAD9-2FCE-42E7-8898-AF1BC22987E6}
+	EndGlobalSection
+EndGlobal
