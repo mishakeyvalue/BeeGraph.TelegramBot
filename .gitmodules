@@ -1,0 +1,3 @@
+[submodule "BeeGraph"]
+	path = BeeGraph
+	url = https://github.com/mitutee/BeeGraph
